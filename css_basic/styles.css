@@ -16,3 +16,9 @@ aside{
     flex: 1;
     overflow-y: auto;
 }
+table{
+    width: 100%;
+}
+table, th, td{
+    border: 1px solid;
+}
