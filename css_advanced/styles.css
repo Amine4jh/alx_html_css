@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: arial; */
+}
+header, .banner{
+    font-family: "Source Sans 3";
+}
+body{
+    background-image: url(images/Object.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 40px 200px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header ul{
+    display: flex;
+    list-style: none;
+}
+header li{
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+.banner{
+    margin-top: 170px;
+}
+.banner h1{
+    color: #fff;
+    font-size: 120px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+}
+.banner-header p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    word-spacing: 70px;
+}
+.banner-header button{
+    display: block;
+    margin: 40px auto;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background: #c271ff;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.banner h2{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #c271ff;
+}
+.banner h2 span{
+    font-weight: 300;
+    color: #fff;
+}
+.pros-container{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+.pros-container div{
+    width: 150px;
+}
+.pros-container div img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.pros-container h3{
+    font-size: 18px;
+    text-align: center;
+}
+.pros-container p{
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
