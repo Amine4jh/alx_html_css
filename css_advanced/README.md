@@ -12,15 +12,13 @@ This project is based on the following Figma design:
 
 ## 🚀 Getting Started
 
-- To view the website locally:
-
-    1. Clone the repository:
+1. Clone the repository:
 
     ```bash
     git clone https://github.com/yourusername/project-name.git
     ```
 
-    2. Open `index.html` in your browser.
+2. Open `index.html` in your browser.
 
 
 ## 🛠️ Technologies Used
