@@ -6,14 +6,14 @@
     box-sizing: border-box;
     /* font-family: arial; */
 }
-header, .banner{
+header, .banner, .quote{
     font-family: "Source Sans 3";
+    padding: 40px 200px;
 }
 body{
     background-image: url(images/Object.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    padding: 40px 200px;
+    background-size: 100%;
 }
 header{
     display: flex;
@@ -34,7 +34,7 @@ header a{
     color: #fff;
 }
 .banner{
-    margin-top: 170px;
+    margin-top: 100px;
 }
 .banner h1{
     color: #fff;
@@ -98,4 +98,27 @@ header a{
     font-size: 16px;
     font-style: italic;
     text-align: center;
+}
+.quote{
+    background: #c271ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 200px;
+}
+.quote div{
+    padding: 0 40px;
+}
+.quote blockquote,
+.quote h3,
+.quote p{
+    font-size: 22px;
+    color: #fff;
+}
+.quote h3{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.quote p{
+    font-style: italic;
 }
