@@ -34,7 +34,7 @@ This project is the result of applying all the web fundamentals I’ve learned. 
 1. **Clone the repo**:
 
    ```bash
-   git clone https://github.com/amine4jh/alx_html_css.git
+   git clone https://github.com/Amine4jh/alx_html_css
    cd headphones
     ```
 
