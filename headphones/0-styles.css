@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans 3";
+}
+header{
+    background-image: url("images/headphones_hero_1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* height: 100vh; */
+    padding: 30px 200px 0 200px;
+    text-align: center;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header img{
+    width: 161px;
+}
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+ul li a{
+    padding: 0 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: #ff6565;
+}
+ul li a:active{
+    color: #ff6565;
+}
+.header-content{
+    margin-top: 330px;
+    padding-bottom: 140px;
+}
+.header-content h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+}
+.header-content h2{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+.header-content button{
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background: #ff6565;
+    margin: 40px 0 50px 0;
+    cursor: pointer;
+}
+.header-content button:hover{
+    opacity: 0.9;
+}
+.header-content button:active{
+    opacity: 0.9;
+}
+.header-content p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    padding: 0 220px;
+}
