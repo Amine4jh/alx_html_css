@@ -5,12 +5,16 @@
     box-sizing: border-box;
     font-family: "Source Sans 3";
 }
-header{
+body{
     background-image: url("images/headphones_hero_1.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
-    /* height: 100vh; */
-    padding: 30px 200px 0 200px;
+    background-position: top center;
+    background-size: 100%;
+}
+header{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 30px;
     text-align: center;
 }
 .header{
